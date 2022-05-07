@@ -7,6 +7,7 @@ import {
   BannerIllustrator,
   Brand,
   Description,
+  Doodle,
   ExploreButton,
   Slogan,
 } from './MainBannerElements';
@@ -38,6 +39,7 @@ const MainBanner = () => {
       <BannerIllustrator>
         <Image src={bannerImage} alt="MAIN BANNER" />
       </BannerIllustrator>
+      <Doodle />
     </BannerContainer>
   );
 };

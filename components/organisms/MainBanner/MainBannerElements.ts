@@ -17,10 +17,19 @@ export const BannerContainer = styled.div`
     padding: 75px 20px 95px;
   }
 
+  @media screen and (max-width: 1024px) {
+    height: calc(100vh - 80px);
+  }
+`;
+
+export const Doodle = styled.div`
   @media screen and (max-width: 600px) {
+    left: 0;
+    top: 0;
     height: calc(100vh - 80px);
     position: absolute;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 
     &::after {
