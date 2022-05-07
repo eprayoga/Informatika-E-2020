@@ -19,6 +19,9 @@ export const BannerContainer = styled.div`
 
   @media screen and (max-width: 600px) {
     height: calc(100vh - 80px);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
 
     &::after {
       position: absolute;
