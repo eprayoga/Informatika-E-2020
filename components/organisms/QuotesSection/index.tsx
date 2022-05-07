@@ -4,7 +4,7 @@ import { Autoplay, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import photoEndang from '../../../public/assets/img/pp-endang.jpg';
 import photoRidwan from '../../../public/assets/img/pp-ridwan.jpeg';
-import photoDavid from '../../../public/assets/img/pp-david.jpg';
+import photoDavid from '../../../public/assets/img/photo-david.jpg';
 import photoRifki from '../../../public/assets/img/pp-rifki.jpeg';
 import {
   Description,
