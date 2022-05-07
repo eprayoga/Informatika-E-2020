@@ -49,6 +49,7 @@ export const Doodle = styled.div`
 export const BannerDescription = styled.div`
   width: 40%;
   color: #fff;
+  z-index: 9;
 
   @media screen and (max-width: 1024px) {
     width: 100%;
